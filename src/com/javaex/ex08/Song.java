@@ -2,15 +2,24 @@ package com.javaex.ex08;
 
 public class Song {
 	
-	String title;
-	String artist;
+	private String title;
+	private String artist;
+	private String album;
+	private String composer;
+	private int year;
+	private int track;
 	
 	public Song() {
+		System.out.println("Song()");
 	}
 	public Song(String title, String artist) {
 		this.title=title;
 		this.artist=artist;
-		System.out.println(artist+", "+title);
+		this.album=album;
+		this.composer=composer;
+		this.year=year;
+		this.track=track;
+		System.out.println("Song(String title, String artist)");
 	}
 	
 	public String getTitle() {
@@ -25,10 +34,34 @@ public class Song {
 	public void setArtist(String artist) {
 		this.artist = artist;
 	}
+	public String getAlbum() {
+		return album;
+	}
+	public void setAlbum(String album) {
+		this.album = album;
+	}
+	public String getComposer() {
+		return composer;
+	}
+	public void setComposer(String composer) {
+		this.composer = composer;
+	}
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public int getTrack() {
+		return track;
+	}
+	public void setTrack(int track) {
+		this.track = track;
+	}
 	
 	@Override
 	public String toString() {
-		return "Song [title=" + title + ", artist=" + artist + "]";
+		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
+				+ year + ", track=" + track + "]";
 	}
-
 }
