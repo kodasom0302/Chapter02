@@ -17,8 +17,25 @@ public class GoodsApp {
 		goodsArray[1]=computer;
 		goodsArray[2]=cup;
 		
-		System.out.println(camera.getName());
-		System.out.println(goodsArray[0].getName());
+		//System.out.println(camera.getName());
+		//System.out.println(goodsArray[0].getName());
+		
+		/*
+		camera.showInfo();
+		computer.showInfo();
+		cup.showInfo();
+		*/
+		
+		int count=0;
+		
+		for (int i=0; i<goodsArray.length; i++) {
+			if (goodsArray[i]!=null) {	//주소가 있으면
+				goodsArray[i].showInfo();
+				count=count+1;	//count+=1
+			}
+		}
+		
+		System.out.println(count);
 
 	}
 
