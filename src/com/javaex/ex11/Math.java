@@ -22,8 +22,8 @@ public class Math {
 	}
 	public String plus(String a, int b) {
 		String sum=a;
-		for (int i=1; i<=b; i++) {
-			a=sum+i;
+		for (int i=1; i==b; i++) {
+			sum=sum+a;
 		}
 		return sum;
 	}
