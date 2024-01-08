@@ -13,6 +13,8 @@ public class PersonApp {
 		s01.setAge(45);
 		s01.setSchoolName("서울고등학교");
 		System.out.println(s01.toString());
+		
+		Student s02=new Student("유재석", 44, "한국고등학교");
 
 	}
 
