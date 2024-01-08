@@ -35,7 +35,7 @@ public class Person {
 	}
 	public void showInfo() {
 		System.out.println("--------------------------------");
-		System.out.println("이름: "+this.name+", "+"나이: "+this.age);
+		System.out.println("이름: "+this.name+", 나이: "+this.age);
 		System.out.println("--------------------------------");
 	}
 

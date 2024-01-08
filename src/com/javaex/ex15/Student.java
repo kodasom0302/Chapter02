@@ -6,7 +6,7 @@ public class Student extends Person{	//extends ~ : 상속받는다
 	private String schoolName;
 	
 	//생성자
-	public Student() {
+	public Student() {	//Person() 사용
 	}
 	public Student(String schoolName) {
 		this.schoolName = schoolName;
@@ -22,9 +22,8 @@ public class Student extends Person{	//extends ~ : 상속받는다
 	}
 
 	//메소드 - 일반
-	@Override
 	public String toString() {
-		return "Student [schoolName=" + schoolName + "]";
+		return "학교: "+schoolName+", 이름: "+getName()+", 나이: "+getAge();
 	}
 
 }

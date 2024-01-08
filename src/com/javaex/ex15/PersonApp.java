@@ -9,6 +9,10 @@ public class PersonApp {
 		p01.showInfo();
 		
 		Student s01=new Student();
+		s01.setName("정우성");
+		s01.setAge(45);
+		s01.setSchoolName("서울고등학교");
+		System.out.println(s01.toString());
 
 	}
 
