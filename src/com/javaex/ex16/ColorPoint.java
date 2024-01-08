@@ -2,10 +2,9 @@ package com.javaex.ex16;
 
 public class ColorPoint extends Point {
 	
-	String Color;
+	private String Color;
 
 	public ColorPoint(String color) {
-		super();
 		Color = color;
 	}
 	public ColorPoint(int x, int y, String color) {
@@ -26,7 +25,8 @@ public class ColorPoint extends Point {
 		return "ColorPoint [Color=" + Color + "]";
 	}
 	public void showInfo() {
-		System.out.println("x="+getX()+", y="+getY()+", color="+Color);
+		System.out.println("x="+super.x+", y="+super.y+", color="+Color);
+		//System.out.println("x="+getX()+", y="+getY()+", color="+Color);
 	}
 
 }
