@@ -21,7 +21,7 @@ public class ShapeApp {
 		sArray[2]=s03;
 		
 		for (int i=0; i<sArray.length; i++) {
-			System.out.println(sArray[i].toString());
+			sArray[i].draw();
 		}
 
 	}
