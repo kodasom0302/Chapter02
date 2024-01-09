@@ -1,15 +1,15 @@
 package com.javaex.ex17;
 
-public class Ractangle {
+public class Rectangle {
 	
 	private String lineColor;
 	private String fillColor;
 	private int width;
 	private int height;
 	
-	public Ractangle() {
+	public Rectangle() {
 	}
-	public Ractangle(String lineColor, String fillColor, int width, int height) {
+	public Rectangle(String lineColor, String fillColor, int width, int height) {
 		super();
 		this.lineColor = lineColor;
 		this.fillColor = fillColor;

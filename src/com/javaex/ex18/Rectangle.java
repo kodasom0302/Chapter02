@@ -1,14 +1,14 @@
 package com.javaex.ex18;
 
-public class Ractangle extends Shape {
+public class Rectangle extends Shape {
 	
 	private int width;
 	private int height;
 	
-	public Ractangle() {
+	public Rectangle() {
 		super();
 	}
-	public Ractangle(int width, int height, String fillColor, String lineColor) {
+	public Rectangle(int width, int height, String fillColor, String lineColor) {
 		super(fillColor, lineColor);
 		this.width = width;
 		this.height = height;
@@ -25,6 +25,12 @@ public class Ractangle extends Shape {
 	}
 	public void setHeight(int height) {
 		this.height = height;
+	}
+	
+	@Override
+	public String toString() {
+		return "Rectangle [width=" + width + ", height=" + height + ", getFillColor()=" + getFillColor()
+				+ ", getLineColor()=" + getLineColor() + "]";
 	}
 
 }
