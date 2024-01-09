@@ -25,7 +25,7 @@ public class ColorPoint extends Point {
 		return "ColorPoint [Color=" + Color + "]";
 	}
 	public void showInfo() {
-		System.out.println("x="+super.x+", y="+super.y+", color="+Color);
+		System.out.println("x="+super.x+", y="+this.getY()+", color="+Color);
 		//System.out.println("x="+getX()+", y="+getY()+", color="+Color);
 	}
 

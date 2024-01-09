@@ -3,14 +3,14 @@ package com.javaex.ex16;
 public class Point {
 	
 	protected int x;
-	protected int y;
+	private int y;
 	
 	public Point() {
 	}
 	public Point(int x, int y) {
-		super();
 		this.x = x;
 		this.y = y;
+		System.out.println("point(2)");
 	}
 	
 	public int getX() {
@@ -29,6 +29,10 @@ public class Point {
 	@Override
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
+	}
+	
+	public void draw() {
+		System.out.println("점="+this.x+", y="+this.y+"을 그렸습니다");
 	}
 
 }
