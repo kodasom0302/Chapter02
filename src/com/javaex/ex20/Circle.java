@@ -31,5 +31,8 @@ public class Circle extends Shape {
 	    System.out.println("선색:" + super.getLineColor());
 	    System.out.println("============================");
 	}
+	public double area() {
+		return 3.14*radius*radius;
+	}
 
 }

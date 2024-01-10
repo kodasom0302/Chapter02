@@ -29,6 +29,11 @@ public class ShapeApp {
 		
 		//원의 반지름 가져오기
 		System.out.println(((Circle)sArray[2]).getRadius());
+		
+		//전체 면적 구하기
+		for (int i=0; i<sArray.length; i++) {
+			System.out.println(sArray[i].area());
+		}
 	}
 
 }
