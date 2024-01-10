@@ -34,6 +34,23 @@ public class ShapeApp {
 			dArray[i].draw();
 		}
 		
+		//사각형의 가로
+		System.out.println(((Rectangle)dArray[0]).getWidth());
+		
+		//원의 넓이
+		System.out.println(((Circle)dArray[2].area()));
+		System.out.println(((Shape)dArray[2].area()));
+		
+		//점의 y값
+		System.out.println(((Point)dArray[1].getY()));
+		
+		//전체에서 도형의 넓이를 출력
+		for (int i=0; i<dArray.length; i++) {
+			if (dArray[i] instanceof Shape) {	//현재 배열의 주소(방)를 따라가면 Shape이 있습니까?
+				System.out.println(((Shape)dArray[i].area()));
+			}
+		}
+		
 	}
 
 }

@@ -32,6 +32,6 @@ public abstract class Shape {
 	//면적 구하는 메소드
 	public abstract double area();
 	
-	//public abstract void draw();
+	public abstract void draw();
 
 }
