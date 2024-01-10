@@ -1,4 +1,4 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
 public interface Drawable {
 	

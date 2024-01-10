@@ -1,6 +1,6 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Drawable {
 	
 	private int width;
 	private int height;

@@ -1,6 +1,6 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Drawable {
 	
 	private int radius;
 

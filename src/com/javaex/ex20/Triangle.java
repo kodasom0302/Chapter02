@@ -1,6 +1,6 @@
 package com.javaex.ex20;
 
-public class Triangle extends Shape implements Drawable {
+public class Triangle extends Shape {
 	
 	private int width;
 	private int height;

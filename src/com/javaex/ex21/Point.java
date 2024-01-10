@@ -1,6 +1,6 @@
-package com.javaex.ex20;
+package com.javaex.ex21;
 
-public class Point {
+public class Point implements Drawable {
 	
 	private int x;
 	private int y;
