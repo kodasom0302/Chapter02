@@ -29,8 +29,9 @@ public abstract class Shape {
 	public String toString() {
 		return "Shape [fillColor=" + fillColor + ", lineColor=" + lineColor + "]";
 	}
-	public abstract void draw();
 	//면적 구하는 메소드
 	public abstract double area();
+	
+	//public abstract void draw();
 
 }
